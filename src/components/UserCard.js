@@ -25,7 +25,7 @@ export default (props) => {
 	return (
 		<UserCard style={{transform: `rotate(${(Math.random() < 0.5 ? -1 : 1) * (Math.random() * 15)}deg)`, backgroundColor: randomColor()}}>
 			<CardContent>
-				<img src={user.profileImage} width="50%" style={{marginBottom: "5px"}} />
+				<img src={user.profileImage} width="50%" style={{marginBottom: "5px"}} alt="Profile" />
 				{user.username}
 			</CardContent>
 		</UserCard>
